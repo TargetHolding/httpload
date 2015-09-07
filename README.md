@@ -1,7 +1,7 @@
 HTTP Load
 =================
 
-A straight forward python tool to generate some HTTP load with connections kept alive and _not_ shared between clients.
+A straightforward python tool to generate some HTTP load with connections kept alive and _not_ shared between clients.
 
 ## Requirements:
 
@@ -9,7 +9,10 @@ httpload uses aiohttp which in turn builds on asyncio which is introduced in pyt
 
 ## Installation:
 
-
+Install using pip (e.g. in a virtual environment created with pyvenv):
+```
+pip install git+https://github.com/TargetHolding/httpload.git
+```
 
 ## Usage
 
